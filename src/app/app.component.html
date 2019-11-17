@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="w-100 h-100 application-container position-absolute">
+    <!-- <mat-toolbar>Aidan & Brie 2020</mat-toolbar> -->
+    <mat-toolbar color="primary">
+      <div class="col-12 h-100 row m-0">
+        <div class="col-2">
+            <button mat-button class="h-100 w-100 rounded-0" routerLink="/home" routerLinkActive="active-link">Home</button>
+        </div>
+        <div class="col-2">
+            <button mat-button class="h-100 w-100 rounded-0" routerLink="/registry" routerLinkActive="active-link">Registry</button>
+        </div>
+        <div class="col-2">
+          <button mat-button class="h-100 w-100 rounded-0" routerLink="/placestostay" routerLinkActive="active-link">Places to Stay!</button>
+        </div>
+        <div class="col-2">
+          <button mat-button class="h-100 w-100 rounded-0" routerLink="/thingstodo" routerLinkActive="active-link">Things to do!</button>
+        </div>
+        <div class="col-2">
+          <button mat-button class="h-100 w-100 rounded-0" routerLink="/itnerary" routerLinkActive="active-link">Itinerary</button>
+        </div>
+      </div>     
+    </mat-toolbar>
+  <div class="application-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="w-100 h-100 row m-0 application-background position-absolute overflow-hidden">
+
+</div>
